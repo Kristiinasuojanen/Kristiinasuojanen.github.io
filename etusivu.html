@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kristiina Suojanen - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <ul>
+            <li class="container"><h1>KRISTIINA SUOJANEN</h1></li>
+            <li class="container">
+                <div class="navi"><a href="#contact">CONTACT</a></div>
+                <div class="navi"><a href="#about">ABOUT ME</a></div>
+                <div class="navi"><a href="#cv">CV</a></div>
+                <div class="navi"><a href="#projects">MY PROJECTS</a></div>
+            </li>
+            <li class="container">
+                <div class="symbol"><a href="http://www.linkedin.com/in/kristiina-suojanen" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></div>
+                <div class="symbol"><a href="https://www.facebook.com/kristiina.suojanen.5" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></div>   
+                <div class="symbol"><a href="https://www.instagram.com/kristiinasuojanen/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a> </div>
+            
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container2">
+        <img src="/Users/kristiinasuojanen/Desktop/IMG_0012.jpeg" alt="minäkuva" style="width:100%;">
+        <h2 class="yellowtext">
+            I am Kristiina Suojanen. 
+            <p class="yellowtext2">Currently studying Information networks at Aalto University.</p> 
+            <p class="yellowtext2">Looking for a summerjob 2020!</p>
+        </h2>
+    </div>
+    
+
+    <div class="vali" id="contact"></div>
+    
+    <div class="content">
+        <div class="textbox" style="width: 100%;">
+            <div class="blacktext">
+                <h3>
+                    CONTACT
+                </h3>
+                <h4 style="font-weight: 300; line-height: 200%;">
+                    Mobile: +358 445122215 <br>
+                    Email: kristiina.suojanen@aalto.fi <br>
+                    LinkedIn: <a href="http://www.linkedin.com/in/kristiina-suojanen" target="_blank">Kristiina Suojanen</a> <br>
+                    Telegram: Kristiina_Suojanen 
+                </h4>
+            </div> 
+        </div>
+    </div>
+    
+    <div class="vali" id="about"></div>
+
+    <div class="content">
+        <div class="textbox">
+            <div class="blacktext">
+                <h3>
+                    ABOUT ME
+                </h3>
+                <h4>
+                    I am Kristiina Suojanen, currently I'm studying Information networks
+                    at Aalto University. I am hardworking, productive and trusthworthy. 
+                </h4>
+                <p>
+                    I grew up in Porvoo, Finland and moved to Otaniemi, Espoo to study in September 2019.
+                    <br>
+                    My studies consist of programming, IEM (industrial engineering and management), maths
+                    and human based communication courses. I'm able to understand and communicate with different stakeholder groups,
+                    as I know about technology and managemet as well as the customers and employees.
+                    <br> <br>
+                    In my spare time I like to play tennis, sail, cook and ski. I'm very passionte about my hobbies, and love to develop my skills.
+                    <br> <br>
+                    As a person I'm innovative, and enjoy working on diffrent projects were I can implement my skills and creativity.
+                    <br> <br>
+                    I dream about becoming an entrepreneur, and starting my own company one day.
+
+                </p>
+            </div>
+        </div> 
+        <img class="kuva" src="/Users/kristiinasuojanen/Desktop/IMG_7986.JPG" alt="tennis"> 
+    </div>
+
+    <div class="vali" id="cv"></div>
+
+    
+
+   
+    <div class="openbox">
+        <h3 class="blacktext">
+            CURRICULUM VITAE
+        </h3>
+        <button onclick="myFunction()"> 
+            <h3 class="blacktext">
+                Hide / Show
+            </h3> 
+        </button>
+    </div>
+
+
+    <div class="cv" id="cvDIV" style="justify-content: center;">
+        <img src="/Users/kristiinasuojanen/Desktop/KRISTIINA/CV/KristiinaSuojanen2020_CV.pdf" alt="cv" style="width: 80%; height: 80%;" >
+    </div>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("cvDIV");
+        if (x.style.display === "none") {
+            x.style.display = "flex";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+
+    <div class="vali" id="projects"></div>
+    
+    <div class="content">
+        <div class="textbox">
+            <div class="blacktext" style="justify-content: space-between;">
+                <div class="blacktext">
+                    <h3>
+                        TELEGRAM BOT
+                    </h3>
+                    <h4>
+                        I programmed a telegram-bot, where you can learn words in a different language.
+                    </h4>
+                    <p>
+                        I used scala programming in this project. <br>
+                        The bot takes words the user puts in and asks them in a random order. 
+                        Once the user has anwsered a word correctly 5 times it automatically dissappears from the wordlist.
+                        The bot is not running on telegram right now, but you can check out the code and contact me if you want to try it.
+                    </p>
+                </div>
+                <h4 class="link"> 
+                    <a href="https://version.aalto.fi/gitlab/suojank1/botti_2019" target="_blank"> 
+                        Check it out! 
+                    </a>
+                </h4>
+            </div>
+        </div> 
+        <img class="kuva" src="/Users/kristiinasuojanen/Documents/Aalto/VJP/Portfolio/images/Näyttökuva 2020-2-23 kello 11.12.08.png" alt="tennis"> 
+    </div>
+
+    <div class="vali"></div>
+    
+    <div class="content">
+        <div class="textbox">
+            <div class="blacktext" style="justify-content: space-between;">
+                <div class="blacktext">
+                    <h3>
+                        UNREAL ROSES
+                    </h3>
+                    <h4>
+                        Unreal roses is an old school demo project. We created it as teamwork with 3 other fellow freshmen.
+                    </h4>
+                    <p>
+                        I participated in designing the project and programming the Simplerose and Roserain effects. 
+                        To create the animations I used sin curves and a mathematical formula r=cos(k𝜃) + c, to draw the rosepattern. 
+                        By changing the values r, k and c I made different changes to the roses.
+                        
+                    </p>
+                </div>
+                
+                <h4 class="link"> 
+                    <a href="https://version.aalto.fi/gitlab/kemppin2/studio-demo-2019" target="_blank"> 
+                        Check it out! 
+                    </a>
+                </h4>
+            </div>
+        </div> 
+        <img class="kuva2" src="/Users/kristiinasuojanen/Documents/Aalto/VJP/Portfolio/images/Näyttökuva 2020-2-22 kello 16.17.33.png" alt="simplerose" > 
+    </div>
+
+    <div class="vali"></div>
+
+    <div class="content">
+        <div class="textbox">
+            <div class="blacktext" style="justify-content: space-between;">
+                <div class="blacktext">
+                    <h3>
+                        IEM Business plan for a restaurant
+                    </h3>
+                    <h4>
+                        Me and 3 other fellow freshmen made a business plan for a burger restaurant in Otaniemi.
+                    </h4>
+                    <p>
+                        The project required bussiness-minded thinking and knowledge of IEM-terms and principles. <br>
+                        Our idea was to start a hangout place for students where they could enjoy delicious burgers. <br>
+                        For the project we got a perfect 25/25 grading. <br> 
+                        For the financial calculations please contact me!
+                    </p>
+                </div>
+                <h4 class="link"> 
+                    <a href="https://drive.google.com/file/d/135qBngv4zD-2lZH53xETqbMQh4dy7fXW/view?usp=sharing" target="_blank"> 
+                        Check it out! 
+                    </a>
+                </h4>
+            </div>
+        </div> 
+        <img class="kuva" src="/Users/kristiinasuojanen/Documents/Aalto/VJP/Portfolio/images/Näyttökuva 2020-2-24 kello 9.04.42.png" alt="OtaBurger"> 
+    </div>
+
+    <div class="vali"></div>
+    
+    <footer>
+
+            <p class="blacktext">
+                Please contact me for further information!
+            </p>
+        
+            <p class="blacktext">
+                Mobile: +358 445122215 <br>
+                Email: kristiina.suojanen@aalto.fi <br>
+                Telegram: Kristiina_Suojanen 
+            </p>
+        
+        
+    </footer>
+  
+    
+</body>
+</html>
+
