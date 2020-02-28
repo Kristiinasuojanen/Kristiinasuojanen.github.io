@@ -232,7 +232,7 @@
                 h4              {font-size: 15px;}
                 footer p.blacktext {font-size: 15px;}
                 button          {width: 35%;}
-                .textbox        {width: 100%;}
+                .textbox        {width: 100%; padding-left: 0%;}
                 .content        {flex-direction: column;}
                 .kuva           {width: 100%; padding-top: 5%;}
                 .kuva2          {width: 100%; padding-top: 5%; order: 2;}
@@ -248,7 +248,7 @@
                 h1              {font-size: 24px;}
                 .navi a         {padding: 20px}
                 .container2     {padding-top: 70px}
-                .textbox        {width: 100%;}
+                .textbox        {width: 100%; padding-left: 0%;}
                 .content        {flex-direction: column;}
                 .kuva           {width: 100%; padding-top: 5%;}
 
