@@ -34,6 +34,7 @@
                         flex-direction: column;
                         align-content: center;
                         width: 100%;
+                        padding-right: 5%;
                         }
 
         .yellowtext     {color: rgb(255, 255, 233);
@@ -170,7 +171,8 @@
                         height: auto;
                         float: left;
                         z-index: 9998;
-                        padding-right: 5%;}
+                        padding-left: 5%;
+                        }
         
         .openbox        {display: flex;
                         height: 200px;
@@ -230,6 +232,11 @@
                 h4              {font-size: 15px;}
                 footer p.blacktext {font-size: 15px;}
                 button          {width: 35%;}
+                .textbox        {width: 100%;}
+                .content        {flex-direction: column;}
+                .kuva           {width: 100%; padding-top: 5%;}
+                .kuva2          {width: 100%; padding-top: 5%; order: 2;}
+
 
                 }
                 
@@ -241,6 +248,9 @@
                 h1              {font-size: 24px;}
                 .navi a         {padding: 20px}
                 .container2     {padding-top: 70px}
+                .textbox        {width: 100%;}
+                .content        {flex-direction: column;}
+                .kuva           {width: 100%; padding-top: 5%;}
 
                 }
                  
