@@ -34,7 +34,7 @@
                         flex-direction: column;
                         align-content: center;
                         width: 100%;
-                        padding-right: 5%;
+                        margin-right: 10%;
                         }
 
         .yellowtext     {color: rgb(255, 255, 233);
@@ -153,6 +153,7 @@
                         height: auto;
                         align-content: center;
                         background-color: rgb(241, 241, 240, 0.6);
+                        padding-bottom: 3%;
                         }
         
         .kuva           {display: flex;
@@ -171,7 +172,7 @@
                         height: auto;
                         float: left;
                         z-index: 9998;
-                        padding-left: 5%;
+                        padding-right: 5%;
                         }
         
         .openbox        {display: flex;
@@ -232,7 +233,7 @@
                 h4              {font-size: 15px;}
                 footer p.blacktext {font-size: 15px;}
                 button          {width: 35%;}
-                .textbox        {width: 100%; padding-left: 0%;}
+                .textbox        {width: 100%;}
                 .content        {flex-direction: column;}
                 .kuva           {width: 100%; padding-top: 5%;}
                 .kuva2          {width: 100%; padding-top: 5%; order: 2;}
@@ -248,9 +249,10 @@
                 h1              {font-size: 24px;}
                 .navi a         {padding: 20px}
                 .container2     {padding-top: 70px}
-                .textbox        {width: 100%; padding-left: 0%;}
+                .textbox        {width: 100%;}
                 .content        {flex-direction: column;}
                 .kuva           {width: 100%; padding-top: 5%;}
+                .kuva2          {width: 100%; padding-top: 5%; order: 2;}
 
                 }
                  
@@ -259,9 +261,13 @@
                 .yellowtext     {font-size: 30px;}
                 .yellowtext2    {font-size: 20px;}
                 .symbol         {display: none;}
-                h1             {font-size: 24px;}
+                h1              {font-size: 24px;}
                 .navi a         {padding: 20px}
                 .container2     {padding-top: 70px}
+                .content        {flex-direction: column;}
+                .textbox        {width: 100%;}
+                .kuva           {width: 100%; padding-top: 5%;}
+                .kuva2          {width: 100%; padding-top: 5%; order: 2;}
                  
                 }
                  
