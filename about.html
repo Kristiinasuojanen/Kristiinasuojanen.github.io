@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+        $(".toggle").on("click", function() {
+            if ($(".item").hasClass("active")) {
+                $(".item").removeClass("active");
+            } else {
+                $(".item").addClass("active");
+            }
+        });
+    });
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="item"><a href="index.html">HOME</a></li>
+            <li class="item"><a href="cv.html">CV</a></li>
+            <li class="item"><a href="about.html">ABOUT ME</a></li>
+            <li class="item"><a href="projects.html">PROJECTS</a></li>
+            <li class="toggle"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1E2142" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="13" x2="21" y2="13"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="20" x2="21" y2="20"></line></svg></li>
+        </ul>
+    </nav>
+    <div>
+        <div><h1>Kristiina Suojanen</h1></div>
+        <div class="sininen">
+            <div class="teksti">
+                <h2>About me</h2>
+                <p>
+                    I grew up in Porvoo, Finland and moved to Otaniemi, Espoo to study in September 2019. 
+                    <br> <br>
+                    I am currently a second year sudent in the field of information networks. You can read more about my studies below.
+                    <br> <br>
+                    I've always had many hobbies, and currently I'm also doing some volunteer work in the Aalto community, read more below.
+                    <br> <br>
+                    As a person I'm innovative, and enjoy working on diffrent projects were I can implement my skills and creativity. 
+                    <br>
+                    I dream about becoming an entrepreneur, and starting my own company one day.
+                </p> 
+                
+            </div>
+        </div>
+       
+        <div class="punainen">
+            <div class="teksti">
+                <h2>Studying Information networks</h2>
+                <p>
+                    Information networks is a major at the school of science in Aalto University. I started my studies in 2019, and plan on graduating (diplomi-insinööri) in 2024.
+                    <br> <br>
+                    My studies consist of programming, IEM (industrial engineering and management), maths and more human and user based courses. I'm able to understand and communicate with different stakeholders, as I know about technology and managemet as well as the customers and employees. 
+                    <br> <br>
+                    As my minor I've chosen physics. I enjoy the courses very much since I like problem solving, and in my opinion the tasks and calculations really challenge me.
+                </p> 
+            </div>
+        </div>
+
+        <div class="sininen">
+            <div class="teksti">
+                <h2>Hobbies and volunteer work</h2>
+                <p>
+                    My main hobby is tennis, I've played (and coached) for many years now. In 2021 I'm the chair of the board at Aalto Tennis. Aalto Tennis is a official tennisclub that concentrates on students.
+                    <br> <br>
+                    I've also been sailing my entire life, and enjoy getting out on the waters every summer. I've sailed both dinghys and keelboats. And in winter I love to go skiing.
+                    <br>
+                    Currently I'm training for my first marathon, wich I plan to run in 2021. 
+                    <br>
+                    Lately me and my friends have jumped on the bandwagon, and started to play padel every week. I enjoy the game, since it's fun and easy to play.
+                    <br>
+                    I would also call cooking a hobby of mine, I'm always looking for new and callenging recipies to try out. I try to stay on top of food trends, but enjoy making the classic dishes aswell.
+                    <br><br>
+                    As volunteer work for my guild Athene at Aalto, I will be responsible for the sportsclub Ethana together with my friend. We plan on organizing sporting events and competitions for fellow students.
+
+                </p> 
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Please contact me!</h3>
+        <p>
+            kristiina.suojanen(at)aalto.fi <br>
+            +358 445122215 <br>
+            Telegram: @Kristiina_Suojanen <br><br>
+            <br><a href="https://www.linkedin.com">LinkedIn</a>
+            <br><a href="https://www.instagram.com">Instagram</a>
+            
+        </p>
+        <p class="copyright">© Kristiina Suojanen</p>
+    </footer>
+</body>
+</html>

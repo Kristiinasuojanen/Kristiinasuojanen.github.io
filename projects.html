@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+        $(".toggle").on("click", function() {
+            if ($(".item").hasClass("active")) {
+                $(".item").removeClass("active");
+            } else {
+                $(".item").addClass("active");
+            }
+        });
+    });
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="item"><a href="index.html">HOME</a></li>
+            <li class="item"><a href="cv.html">CV</a></li>
+            <li class="item"><a href="about.html">ABOUT ME</a></li>
+            <li class="item"><a href="projects.html">PROJECTS</a></li>
+            <li class="toggle"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#1E2142" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="13" x2="21" y2="13"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="20" x2="21" y2="20"></line></svg></li>
+        </ul>
+    </nav>
+    <div>
+        <div><h1>Kristiina Suojanen</h1></div>
+        <div class="sininen">
+            <div class="teksti">
+                <h2>My projects</h2>
+            <p>
+                Here you can read about a few projects I've made. Some of them I've made all by my self and others are teamwork.
+                <br><br>
+                Personally I'm very experienced in working in different types of groups. 
+                I'm often a very valued member in teams, since I take responsibility of the project as a whole, and make sure everyone feels welcome. 
+                To me it's also important that the job gets done effectively and with good quality.
+            </p> 
+            </div>
+        </div>
+        <div class="punainen">
+            <div class="teksti">
+                <h2>Solar energy campaign and website</h2>
+                <p>
+                    Together with two fellow students, we designed and created a societal campaign about solar energy.
+                    <br> <br>
+                    The project has relevant content, a video, social media platforms, and the main source of informaiton is the website.
+                    We created different types of content, accordingly to what we analyzed would benefit the campaign most.
+                    <br> <br>
+                    Additionally, we programmed the website from scratch. We used HTML, CSS and JavaScript as languages.
+                    Before starting to code, we carefully designed how the site would work and look using figma.
+
+                </p>
+                <button onclick="window.location.href='https://eeropetrell.github.io/aurinkosivut';">CHECK IT OUT</button>
+            </div>
+        </div>
+
+        <div class="sininen">
+            <div class="teksti">
+                <h2>Portfolio website</h2>
+                <p>
+                    I made a portfolio website for Johanna Tamminen. I used HTML and CSS for coding, and figma for designing it.
+
+                </p>
+                <button onclick="window.location.href='https://space.fmi.fi/~jtammine/'">CHECK IT OUT</button>
+            </div>
+        </div>
+
+        <div class="punainen">
+            <div class="teksti">
+                <h2>IEM business plan for a restaurant</h2>
+                <p>
+                    Me and 3 fellow students made a business plan for a burger restaurant in Otaniemi.
+                    <br> <br>
+                    The project required bussiness-minded thinking and knowledge of IEM-terms and principles. 
+                    Our idea was to start a hangout place for students where they could enjoy delicious burgers. 
+                    For the project we got a perfect 25/25 grading.
+                </p>
+                <button onclick="window.location.href='https://drive.google.com/file/d/135qBngv4zD-2lZH53xETqbMQh4dy7fXW/view'">CHECK IT OUT</button>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <h3>Please contact me!</h3>
+        <p>
+            kristiina.suojanen(at)aalto.fi <br>
+            +358 445122215 <br>
+            Telegram: @Kristiina_Suojanen <br><br>
+            <br><a href="https://www.linkedin.com">LinkedIn</a>
+            <br><a href="https://www.instagram.com">Instagram</a>
+            
+        </p>
+        <p class="copyright">© Kristiina Suojanen</p>
+    </footer>
+</body>
+</html>
